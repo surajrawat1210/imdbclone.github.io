@@ -1,0 +1,61 @@
+body
+        {
+            width:100%;
+            background-color:blacK;
+            margin: 0;
+            padding: 0;
+        }
+ .search-logo
+        {
+            position: absolute;
+            right:10px;
+            top:10px;
+
+        }
+
+
+.slide-items
+{
+    height:600px !important;
+    border:3px solid white;
+}
+.slide-items img
+{
+    height:50%;
+}
+
+.save
+{
+   
+    font-size:2rem;
+    padding:10px;
+}
+.slide-captions
+{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    bottom:-100px;
+
+}
+.book
+{
+    justify-self:flex-start;
+    padding-bottom:10px;
+    transform:rotateZ(-30deg);
+}
+.banner
+{
+    position:absolute;
+    bottom:40%;
+    /* left:10%; */
+
+}
+
+.footer li
+{
+   list-style-type: none;  
+   display: inline-block;
+   padding:10px 1rem;
+   font-size:1.5rem;
+}

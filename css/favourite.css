@@ -1,0 +1,28 @@
+body
+{
+     background-image: url('/images/favbg.jpg');
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+}
+#favouriteList
+{
+    
+    padding:10px;
+}
+#favouriteList li
+{
+    
+    margin-bottom: 10px;
+    width:100%;
+    background-color:rgb(149, 149, 149);
+    /* Teal, grey, blue, bright white, dark grey and aqua marine: */
+    padding:10px 0px;
+    border:1px solid gray;
+    margin-left: 10px;
+    
+}
+#watchlist
+{
+    background: transparent;
+}
