@@ -7,7 +7,7 @@ elem. addEventListener("keypress", (event)=>
 {
 if (event.keyCode === 13) { // key code of the keybord key.
 console.log('hello');
-var url="http://www.omdbapi.com/?apikey="+apikey+"&t="+elem.value;
+var url="https://www.omdbapi.com/?apikey="+apikey+"&t="+elem.value;
 
 console.log(elem.value);
 fetch(url)
